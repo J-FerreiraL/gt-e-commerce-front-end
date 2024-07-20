@@ -1,12 +1,12 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { HomePage } from './pages/HomePage'
-import { ProductViewPage } from './pages/ProductViewPage'
-import { ProductListingPage } from './pages/ProductListingPage'
-import { Layout } from './components/Layout'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import HomePage from './pages/HomePage'
+import ProductViewPage from './pages/ProductViewPage'
+import ProductListingPage from './pages/ProductListingPage'
+import Layout from './components/Layout'
 
-export const App = () => {
+const App = () => {
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route path='/' element={<Layout/>}>
           <Route index element={<HomePage/>}/>
@@ -14,6 +14,8 @@ export const App = () => {
           <Route path='product-listing' element={<ProductListingPage/>}/>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </Router>
   )
 }
+
+export default App;
