@@ -1,15 +1,18 @@
 import { Outlet } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
+import { ProductsProvider } from '@/contexts/ProductContext';
 
 const Layout = ({ children }) => {
   return(
     <main>
       <Header/>
 
-      <Outlet>
-        {children}
-      </Outlet>
+      <ProductsProvider>
+        <Outlet>
+          {children}
+        </Outlet>
+      </ProductsProvider>
 
       <Footer/>
     </main>

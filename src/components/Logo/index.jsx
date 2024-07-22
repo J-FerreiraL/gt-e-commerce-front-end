@@ -1,6 +1,10 @@
-const Logo = () => {
+const Logo = ({ image, description, className }) => {
   return(
-    <h1>Logo Component</h1>
+    <img
+      src={image}
+      alt={description}
+      className={className}
+    />
   );
 }
 
