@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useProductsContext } from "../../contexts/ProductContext";
+import { useProductsContext } from "@/contexts/ProductsContext";
 import { LuSearch } from "react-icons/lu";
 
 const Searchbar = () => {

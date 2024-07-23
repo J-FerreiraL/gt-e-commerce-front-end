@@ -1,17 +1,19 @@
 import React, { createContext, useContext, useState } from 'react';
+import Products from '../../mocks/mock';
 
 const ProductsContext = createContext({});
 
 export function ProductsProvider({ children }) {
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState(Products);
   const [search, setSearch] = useState('');
 
+  console.log(products[0])
   return (
-    <ProductContext.Provider
+    <ProductsContext.Provider
       value={{ products, setProducts, search, setSearch }}
     >
       {children}
-    </ProductContext.Provider>
+    </ProductsContext.Provider>
   );
 }
 

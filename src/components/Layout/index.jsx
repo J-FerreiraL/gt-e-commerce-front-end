@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
-import { ProductsProvider } from '@/contexts/ProductContext';
+import { ProductsProvider } from '@/contexts/ProductsContext';
 
 const Layout = ({ children }) => {
   return(
