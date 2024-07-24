@@ -5,7 +5,7 @@ import { ProductsProvider } from '@/contexts/ProductsContext';
 
 const Layout = ({ children }) => {
   return(
-    <main>
+    <main className="bg-[#f9f8fe]">
       <Header/>
 
       <ProductsProvider>

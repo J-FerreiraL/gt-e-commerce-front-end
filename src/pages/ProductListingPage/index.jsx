@@ -1,44 +1,44 @@
 import React from 'react';
-import Products from "@/mocks/mock.js";
 import { useProductsContext } from "@/contexts/ProductsContext";
 import FilterCard from '@/components/FilterCard';
 import ProductCard from '@/components/ProductCard';
 
 const ProductListingPage = () => {
-  const { search } = useProductsContext();
+  const { products, search } = useProductsContext();
 
-  const filterProducts = Products.filter(
+  const filterProducts = products.filter(
     (product) =>
       product.title.toLowerCase().includes(search.toLowerCase()) ||
       product.type.toLowerCase().includes(search.toLowerCase()),
   );
 
-  const isSearch = search.trim().length > 0;
+  const hasSearch = search.trim().length > 0;
 
   return (
     <section className="flex items-center justify-center">
       <div className="px-24 gap-5 md:px-32">
         <div className="flex my-14 gap-1">
-          {isSearch && (
+          {hasSearch && (
             <h2 className="flex gap-1 text-darkGray2 text-[1rem]">
               <span className="font-bold">
                 Resultados para &quot;{search}&quot; -
               </span>
               <span className="font-normal">
-                {filterProducts.length}{' '}
-                {filterProducts.length !== 1 ? 'produtos' : 'produto'}
+                {filterProducts.length}{' produto'}
+                {filterProducts.length !== 1 && 's'}
               </span>
             </h2>
           )}
         </div>
+
         <div className="flex flex-col">
-          <div className="flex gap-5">
+          <div className="flex gap-4">
             <div className="flex flex-col">
               <FilterCard />
             </div>
-            <div className="grid grid-cols-3 gap-5">
+            <div className="flex flex-wrap gap-4">
               {filterProducts.map((product) => (
-                <ProductCard key={product.title} {...product} />
+                <ProductCard key={product.id} product={product} />
               ))}
             </div>
           </div>

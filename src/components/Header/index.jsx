@@ -36,7 +36,7 @@ const Header = () => {
 
       <section className='flex gap-4'>
         <Navigation title="Home" page="/"/>
-        <Navigation title="Produtos" page="/produtos"/>
+        <Navigation title="Produtos" page="/products"/>
         <Navigation title="Categorias" page="/Home"/>
         <Navigation title="Meus Pedidos" page="/Home"/>
       </section>

@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { FaCheck, FaCircle } from 'react-icons/fa';
 
 const FilterGroup = ({ title, inputType, options }) => {
@@ -22,10 +23,9 @@ const FilterGroup = ({ title, inputType, options }) => {
             onChange={() => handleInputChange(option.value)}
             className={`
               peer cursor-pointer appearance-none h-4 w-4 border border-darkGray3 focus:outline-none relative 
-              ${
-                inputType === 'checkbox'
-                  ? 'rounded-sm checked:bg-primary checked:border-none checked:hover:bg-tertiary ease-in transition-all duration-300'
-                  : 'rounded-full checked:border-primary checked:hover:border-tertiary ease-in transition-all duration-300'
+              ${inputType === 'checkbox'
+                ? 'rounded-sm checked:bg-primary checked:border-none checked:hover:bg-tertiary ease-in transition-all duration-300'
+                : 'rounded-full checked:border-primary checked:hover:border-tertiary ease-in transition-all duration-300'
               }
             `}
           />
