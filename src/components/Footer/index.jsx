@@ -68,7 +68,7 @@ const Footer = () => {
       <div className="flex flex-col items-center justify-center gap-5 pt-10 pb-5">
         <span className="border border-darkGray3 border-solid w-full bottom-[128px]"></span>
         <p className="font-normal text-[13px] text-white">
-          &copy; {Year()} Digital College
+          &copy; {Year() + 1} Digital College
         </p>
       </div>
     </footer>
