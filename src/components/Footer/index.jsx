@@ -1,12 +1,15 @@
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 import logoFooter from '@/assets/logo-footer.svg';
 import Logo from '@/components/Logo';
-import ItemsFooter from './ItemsFooter';
+import ItemsFooter from '@/components/Footer/ItemsFooter'; // Apenas esta importação é necessária
+import React from 'react';
 
 const Footer = () => {
-  const Year = () => new Date().getFullYear();
+  const Year = () => {
+    return new Date().getFullYear();
+  };
 
-  return(
+  return (
     <footer className="flex flex-col bg-darkGray px-24 pt-10 md:px-32">
       <div className="flex justify-between">
         <div className="flex flex-col gap-5 w-[400px]">
@@ -31,11 +34,11 @@ const Footer = () => {
               <FaInstagram size={20} />
             </a>
             <a
-              href="https://twitter.com/eaicollegers"
+              href="https://x.com/eaicollegers"
               target="_blank"
               rel="noreferrer"
             >
-              <FaTwitter size={20} />
+              <FaTwitter size={20} /> {/* Verifique se este é o ícone correto */}
             </a>
           </div>
         </div>
@@ -68,11 +71,11 @@ const Footer = () => {
       <div className="flex flex-col items-center justify-center gap-5 pt-10 pb-5">
         <span className="border border-darkGray3 border-solid w-full bottom-[128px]"></span>
         <p className="font-normal text-[13px] text-white">
-          &copy; {Year() + 1} Digital College
+          &copy; {Year()} Digital College
         </p>
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

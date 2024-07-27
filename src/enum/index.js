@@ -22,3 +22,10 @@ export const ProductCategory = Object.freeze({
   SPORT: 'Esporte',
   CASUAL: 'Casual',
 });
+
+// ProductOrder enum
+export const ProductOrder = Object.freeze({
+  RELEVANT: 'Relevante',
+  LOWPRICE: 'Menor Preço',
+  HIGHPRICE: 'Maior Preço',
+});

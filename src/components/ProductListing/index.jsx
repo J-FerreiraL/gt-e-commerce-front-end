@@ -1,5 +1,5 @@
 import React from 'react';
-import Products  from '@/mocks/mock.js';
+import { Products }  from '@/mock/mock';
 import FilterCard from '@/components/FilterCard';
 import ProductCard from '@/components/ProductCard';
 

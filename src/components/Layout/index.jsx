@@ -1,20 +1,20 @@
 import { Outlet } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
-import { ProductsProvider } from '@/contexts/ProductsContext';
+import ProductProvider from '@/contexts/ProductsContext';
 
 const Layout = ({ children }) => {
-  return(
+  return (
     <main className="bg-[#f9f8fe]">
-      <Header/>
+      <Header />
 
-      <ProductsProvider>
+      <ProductProvider>
         <Outlet>
           {children}
         </Outlet>
-      </ProductsProvider>
+      </ProductProvider>
 
-      <Footer/>
+      <Footer />
     </main>
   );
 }
