@@ -72,11 +72,11 @@ export const ProductListingPage = () => {
         </div>
       </div>
       <div className="flex items-center justify-center w-full">
-        <div className="flex w-full h-full justify-between">
+        <div className="flex w-full h-full">
           <div className="flex justify-center">
             <FilterCard />
           </div>
-          <div className="flex flex-col w-full">
+          <div className="flex flex-col ml-5">
             <div
               className={
                 isProduct
