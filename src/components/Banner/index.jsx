@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import OfferCard from '@/components/OfferCard';
 import Ornament from '@/assets/ornament.png';
-import whiteSneaker from '@/assets/white-sneaker.png';
+import whiteSneaker from '/white-sneaker.png';
 
 const Banner = () => {
   return (

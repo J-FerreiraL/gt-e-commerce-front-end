@@ -7,10 +7,10 @@ import 'swiper/css/pagination';
 
 import Banner from '@/components/Banner';
 
-import purpleSneaker from '@/assets/purple-sneaker.png';
-import whiteSneaker from '@/assets/white-sneaker.png';
-import brownSneaker from '@/assets/brown-sneaker.png';
-import blackSneaker from '@/assets/black-sneaker.png';
+import purpleSneaker from '/purple-sneaker.png';
+import whiteSneaker from '/white-sneaker.png';
+import brownSneaker from '/brown-sneaker.png';
+import blackSneaker from '/black-sneaker.png';
 
 export const HeroSection = () => {
   const images = [purpleSneaker, whiteSneaker, brownSneaker, blackSneaker];

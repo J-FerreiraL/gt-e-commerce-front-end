@@ -1,5 +1,3 @@
-import productNikeImage from '@/assets/white-sneaker.png';
-
 const Products = [
   {
     id: '1',
@@ -22,16 +20,11 @@ const Products = [
       { label: 'cinza', hex: '#6b7280' },
       { label: 'preto', hex: '#000000' },
     ],
-    images: [
-      {
-        url: productNikeImage,
-        altText: 'Tênis Nike Revolution 6',
-      },
-    ],
+    image: '/white-sneaker.png',
     thumbnails: [
-      { url: productNikeImage, altText: 'Thumbnail 1', bgColor: 'bg-indigo-100' },
-      { url: productNikeImage, altText: 'Thumbnail 2', bgColor: 'bg-amber-100' },
-      { url: productNikeImage, altText: 'Thumbnail 3', bgColor: 'bg-red-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 1', bgColor: 'bg-indigo-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 2', bgColor: 'bg-amber-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 3', bgColor: 'bg-red-100' },
     ],
   },
   {
@@ -55,16 +48,11 @@ const Products = [
       { label: 'cinza', hex: '#6b7280' },
       { label: 'preto', hex: '#000000' },
     ],
-    images: [
-      {
-        url: productNikeImage,
-        altText: 'Tênis Nike Revolution 6',
-      },
-    ],
+    image: '/white-sneaker.png',
     thumbnails: [
-      { url: productNikeImage, altText: 'Thumbnail 1', bgColor: 'bg-indigo-100' },
-      { url: productNikeImage, altText: 'Thumbnail 2', bgColor: 'bg-amber-100' },
-      { url: productNikeImage, altText: 'Thumbnail 3', bgColor: 'bg-red-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 1', bgColor: 'bg-indigo-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 2', bgColor: 'bg-amber-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 3', bgColor: 'bg-red-100' },
     ],
   },
   {
@@ -88,16 +76,11 @@ const Products = [
       { label: 'cinza', hex: '#6b7280' },
       { label: 'preto', hex: '#000000' },
     ],
-    images: [
-      {
-        url: productNikeImage,
-        altText: 'Tênis Nike Revolution 6',
-      },
-    ],
+    image: '/white-sneaker.png',
     thumbnails: [
-      { url: productNikeImage, altText: 'Thumbnail 1', bgColor: 'bg-indigo-100' },
-      { url: productNikeImage, altText: 'Thumbnail 2', bgColor: 'bg-amber-100' },
-      { url: productNikeImage, altText: 'Thumbnail 3', bgColor: 'bg-red-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 1', bgColor: 'bg-indigo-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 2', bgColor: 'bg-amber-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 3', bgColor: 'bg-red-100' },
     ],
   },
   {
@@ -121,16 +104,11 @@ const Products = [
       { label: 'cinza', hex: '#6b7280' },
       { label: 'preto', hex: '#000000' },
     ],
-    images: [
-      {
-        url: productNikeImage,
-        altText: 'Tênis Nike Revolution 6',
-      },
-    ],
+    image: '/white-sneaker.png',
     thumbnails: [
-      { url: productNikeImage, altText: 'Thumbnail 1', bgColor: 'bg-indigo-100' },
-      { url: productNikeImage, altText: 'Thumbnail 2', bgColor: 'bg-amber-100' },
-      { url: productNikeImage, altText: 'Thumbnail 3', bgColor: 'bg-red-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 1', bgColor: 'bg-indigo-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 2', bgColor: 'bg-amber-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 3', bgColor: 'bg-red-100' },
     ],
   },
   {
@@ -154,16 +132,11 @@ const Products = [
       { label: 'cinza', hex: '#6b7280' },
       { label: 'preto', hex: '#000000' },
     ],
-    images: [
-      {
-        url: productNikeImage,
-        altText: 'Tênis Nike Revolution 6',
-      },
-    ],
+    image: '/white-sneaker.png',
     thumbnails: [
-      { url: productNikeImage, altText: 'Thumbnail 1', bgColor: 'bg-indigo-100' },
-      { url: productNikeImage, altText: 'Thumbnail 2', bgColor: 'bg-amber-100' },
-      { url: productNikeImage, altText: 'Thumbnail 3', bgColor: 'bg-red-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 1', bgColor: 'bg-indigo-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 2', bgColor: 'bg-amber-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 3', bgColor: 'bg-red-100' },
     ],
   },
   {
@@ -187,16 +160,11 @@ const Products = [
       { label: 'cinza', hex: '#6b7280' },
       { label: 'preto', hex: '#000000' },
     ],
-    images: [
-      {
-        url: productNikeImage,
-        altText: 'Tênis Nike Revolution 6',
-      },
-    ],
+    image: '/white-sneaker.png',
     thumbnails: [
-      { url: productNikeImage, altText: 'Thumbnail 1', bgColor: 'bg-indigo-100' },
-      { url: productNikeImage, altText: 'Thumbnail 2', bgColor: 'bg-amber-100' },
-      { url: productNikeImage, altText: 'Thumbnail 3', bgColor: 'bg-red-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 1', bgColor: 'bg-indigo-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 2', bgColor: 'bg-amber-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 3', bgColor: 'bg-red-100' },
     ],
   },
   {
@@ -220,16 +188,11 @@ const Products = [
       { label: 'cinza', hex: '#6b7280' },
       { label: 'preto', hex: '#000000' },
     ],
-    images: [
-      {
-        url: productNikeImage,
-        altText: 'Tênis Nike Revolution 6',
-      },
-    ],
+    image: '/white-sneaker.png',
     thumbnails: [
-      { url: productNikeImage, altText: 'Thumbnail 1', bgColor: 'bg-indigo-100' },
-      { url: productNikeImage, altText: 'Thumbnail 2', bgColor: 'bg-amber-100' },
-      { url: productNikeImage, altText: 'Thumbnail 3', bgColor: 'bg-red-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 1', bgColor: 'bg-indigo-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 2', bgColor: 'bg-amber-100' },
+      { url: '/white-sneaker.png', altText: 'Thumbnail 3', bgColor: 'bg-red-100' },
     ],
   },
 ];

@@ -3,9 +3,13 @@ import { motion } from 'framer-motion';
 import { FormatPrice } from '@/utils/price/FormatPrice';
 import { DiscountPrice } from '@/utils/price/DiscountPrice';
 import Discount from '@/components/Discount';
-import productNikeImage from '@/assets/white-sneaker.png';
 
 const ProductCard = ({ product }) => {
+
+  if(!product) {
+    return null;
+  }
+
   const {
     type,
     title,
@@ -34,7 +38,7 @@ const ProductCard = ({ product }) => {
         </div>
         <div className="flex items-center justify-center relative -top-3 -left-3">
           <img
-            src={productNikeImage}
+            src={image}
             alt={title}
             className={`transform scale-x-[-1] w-60 rotate-[-30deg]`}
           />
